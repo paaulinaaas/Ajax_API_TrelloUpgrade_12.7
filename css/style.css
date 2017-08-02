@@ -1,0 +1,115 @@
+body {
+    background-color: #FEDE9F;
+    font-family: 'Hind', sans-serif;
+    overflow: hidden;
+}
+
+button {
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border: none;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.create-column {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #9BC2D3;
+    box-shadow: 2px 3px 5px #DA3B28;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p,
+.column-title {
+    margin: 0;
+}
+
+.create-column,
+.btn-delete,
+.card-description,
+.add-card {
+    cursor: pointer;
+}
+
+.column-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    min-height: 300px;
+}
+
+.column {
+    background-color: #D9A6AB;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    text-align: center;
+    padding: 2px;
+}
+
+.column-title, 
+.add-card {
+    text-align: center;
+    color: #0192B1;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn-delete:hover {
+    color: #000;
+}
+
+.column > .btn-delete {
+    top: 1px;
+}
+.column-title,
+.btn-delete,
+.card-description {
+    display: inline;
+}
+.btn-delete {
+    float: right;
+    background-color: #9BC2D3;
+    border: none;
+    padding: 10px;
+}
+
+.column-card-list {
+    list-style: none;
+    padding: 5px;
+    margin: 30px, auto;
+}
+
+.card {
+    border-radius: 3px;
+    overflow: hidden;
+    line-height: 32px;
+    background-color: #DBECCC;
+    margin-bottom: 1px;
+}
+
+.card-description {
+    min-height: 20px;
+}
+
+.add-card {
+    background-color: #9BC2D3;
+    box-shadow: 2px 3px 5px #DA3B28;
+    border: none;
+    margin-top: 20px;
+    display: block;
+}
